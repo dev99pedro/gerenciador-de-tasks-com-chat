@@ -1,0 +1,165 @@
+.container-add-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add-feedback {
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+    display: flex;
+    padding: 30px 50px;
+    padding-left: 40px;
+    border-radius: 20px;
+    box-shadow: -1px -2px 11px 0px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -1px -2px 11px 0px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -1px -2px 11px 0px rgba(0, 0, 0, 0.24);
+    background-color: #fefefe;
+}
+
+.erro {
+    color: red;
+}
+
+.add-feedback .create-new-feedback h2 {
+    font-size: 20px;
+    color: #1a1e48;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.feedback-text {
+    color: #1a1e48;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.feedback-span {
+    color: gray;
+    font-size: 16px;
+}
+
+.input-feedback-title input,
+.input-feedback-category input {
+    width: 400px;
+    height: 4.5vh;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #1a1e48;
+    background-color: #f6f8fc;
+    padding-left: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+
+select {
+    width: 400px;
+    height: 4.5vh;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #1a1e48;
+    background-color: #f6f8fc;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 10px;
+    color: gray;
+
+}
+
+
+
+.input-feedback-details input {
+    width: 400px;
+    height: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #1a1e48;
+    background-color: #f6f8fc;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+option {
+    font-size: 14px;
+}
+
+
+
+.feedback-button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+
+}
+
+
+.feedback-button .btn-cancel {
+    width: 150px;
+    height: 4vh;
+    background-color: #b21fe9;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.feedback-button .btn-add {
+    width: 100px;
+    height: 4vh;
+    background-color: #1a1e48;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.text-error { 
+    color: #FF0000;
+}
+
+@media (max-width: 720px) {
+    .add-feedback {
+        text-align: center;
+        width: 80%;
+        padding: 20px;
+    }
+    .input-feedback-title input {
+        width: 100%;
+    }
+
+    .input-feedback-details input {
+        width: 100%;
+    }
+
+    .feedback-button .btn-cancel {
+        width: 100px;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    .feedback-span {
+        font-size: 16px;
+    }
+
+    .feedback-text { 
+        font-size: 19px;
+    }
+}
